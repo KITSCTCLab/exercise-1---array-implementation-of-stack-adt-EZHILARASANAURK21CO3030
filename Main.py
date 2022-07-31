@@ -8,7 +8,7 @@ class Evaluate:
     # Write your code here
 
 
-  def __init_(self, size):
+  def _init_(self, size):
     """Inits Evaluate with top, size_of_stack and stack.
     Arguments:
       size_of_stack: An integer to set the size of stack.
@@ -115,5 +115,3 @@ if evaluate.validate_postfix_expression(tokens):
     print(evaluate.evaluate_postfix_expression(tokens))
 else:
     print('Invalid postfix expression')
-
-
